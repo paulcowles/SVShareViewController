@@ -42,13 +42,13 @@
 		
 		if(shareType == SVShareTypeFacebook && self.view) {
 			navBar.tintColor = toolbar.tintColor = kSWNavTintFacebook;
-			logoView.image = [UIImage imageNamed:@"facebookLogo.png"];
+			logoView.image = [UIImage imageNamed:@"SVShareViewController.bundle/facebookLogo.png"];
 			charLabel.hidden = YES;
 		}
 		
 		else if(self.view) {
 			navBar.tintColor = toolbar.tintColor = kSWNavTintTwitter;
-			logoView.image = [UIImage imageNamed:@"twitterLogo.png"];
+			logoView.image = [UIImage imageNamed:@"SVShareViewController.bundle/twitterLogo.png"];
 			charLabel.hidden = NO;
 			[self updateCharCount];
 		}

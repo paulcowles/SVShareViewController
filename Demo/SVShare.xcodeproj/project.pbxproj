@@ -11,13 +11,10 @@
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		220F0B6C138E0DA300F59FC3 /* SVShareViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 220F0B6B138E0DA300F59FC3 /* SVShareViewController.bundle */; };
 		22341AEB135B7E5100580DDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22341AE9135B7E5100580DDB /* ViewController.m */; };
 		22341AEC135B7E5100580DDB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22341AEA135B7E5100580DDB /* ViewController.xib */; };
 		22341B03135B7E6D00580DDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22341B02135B7E6D00580DDB /* QuartzCore.framework */; };
-		224BF090135B7F2100D472A1 /* facebookLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 224BF089135B7F2100D472A1 /* facebookLogo.png */; };
-		224BF091135B7F2100D472A1 /* facebookLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224BF08A135B7F2100D472A1 /* facebookLogo@2x.png */; };
-		224BF092135B7F2100D472A1 /* twitterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 224BF08B135B7F2100D472A1 /* twitterLogo.png */; };
-		224BF093135B7F2100D472A1 /* twitterLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 224BF08C135B7F2100D472A1 /* twitterLogo@2x.png */; };
 		224BF094135B7F2100D472A1 /* SVShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224BF08E135B7F2100D472A1 /* SVShareViewController.m */; };
 		224BF095135B7F2100D472A1 /* SVShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224BF08F135B7F2100D472A1 /* SVShareViewController.xib */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
@@ -30,14 +27,11 @@
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* SVShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		220F0B6B138E0DA300F59FC3 /* SVShareViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVShareViewController.bundle; sourceTree = "<group>"; };
 		22341AE8135B7E5100580DDB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		22341AE9135B7E5100580DDB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22341AEA135B7E5100580DDB /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		22341B02135B7E6D00580DDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		224BF089135B7F2100D472A1 /* facebookLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebookLogo.png; sourceTree = "<group>"; };
-		224BF08A135B7F2100D472A1 /* facebookLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebookLogo@2x.png"; sourceTree = "<group>"; };
-		224BF08B135B7F2100D472A1 /* twitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterLogo.png; sourceTree = "<group>"; };
-		224BF08C135B7F2100D472A1 /* twitterLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitterLogo@2x.png"; sourceTree = "<group>"; };
 		224BF08D135B7F2100D472A1 /* SVShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVShareViewController.h; sourceTree = "<group>"; };
 		224BF08E135B7F2100D472A1 /* SVShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVShareViewController.m; sourceTree = "<group>"; };
 		224BF08F135B7F2100D472A1 /* SVShareViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SVShareViewController.xib; sourceTree = "<group>"; };
@@ -86,25 +80,14 @@
 		224BF087135B7F2100D472A1 /* SVShareViewController */ = {
 			isa = PBXGroup;
 			children = (
-				224BF088135B7F2100D472A1 /* Ressources */,
 				224BF08D135B7F2100D472A1 /* SVShareViewController.h */,
 				224BF08E135B7F2100D472A1 /* SVShareViewController.m */,
 				224BF08F135B7F2100D472A1 /* SVShareViewController.xib */,
+				220F0B6B138E0DA300F59FC3 /* SVShareViewController.bundle */,
 			);
 			name = SVShareViewController;
 			path = ../SVShareViewController;
 			sourceTree = SOURCE_ROOT;
-		};
-		224BF088135B7F2100D472A1 /* Ressources */ = {
-			isa = PBXGroup;
-			children = (
-				224BF089135B7F2100D472A1 /* facebookLogo.png */,
-				224BF08A135B7F2100D472A1 /* facebookLogo@2x.png */,
-				224BF08B135B7F2100D472A1 /* twitterLogo.png */,
-				224BF08C135B7F2100D472A1 /* twitterLogo@2x.png */,
-			);
-			path = Ressources;
-			sourceTree = "<group>";
 		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
@@ -199,11 +182,8 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				22341AEC135B7E5100580DDB /* ViewController.xib in Resources */,
-				224BF090135B7F2100D472A1 /* facebookLogo.png in Resources */,
-				224BF091135B7F2100D472A1 /* facebookLogo@2x.png in Resources */,
-				224BF092135B7F2100D472A1 /* twitterLogo.png in Resources */,
-				224BF093135B7F2100D472A1 /* twitterLogo@2x.png in Resources */,
 				224BF095135B7F2100D472A1 /* SVShareViewController.xib in Resources */,
+				220F0B6C138E0DA300F59FC3 /* SVShareViewController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
