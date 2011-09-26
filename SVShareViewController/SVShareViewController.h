@@ -16,13 +16,12 @@ typedef enum SVShareType SVShareType;
 
 @protocol SVShareViewControllerDelegate;
 
-@interface SVShareViewController : UIViewController <UIAlertViewDelegate, UITextViewDelegate> {
+@interface SVShareViewController : TTViewController <UIAlertViewDelegate, UITextViewDelegate> {
 	IBOutlet UITextView *rTextView;
 	IBOutlet UINavigationBar *navBar;
 	IBOutlet UIToolbar *toolbar;
 	IBOutlet UIImageView *logoView;
-	IBOutlet UIBarButtonItem *logoutButton;
-	IBOutlet UILabel *charLabel, *userLabel;
+	IBOutlet UILabel *charLabel;
 }
 
 @property (nonatomic, assign) id<SVShareViewControllerDelegate> delegate;
@@ -38,8 +37,6 @@ typedef enum SVShareType SVShareType;
 
 
 @protocol SVShareViewControllerDelegate
-
 - (void)shareViewController:(SVShareViewController*)controller sendMessage:(NSString*)string forService:(SVShareType)shareType;
-- (void)shareViewController:(SVShareViewController*)controller logoutFromService:(SVShareType)shareType;
-
+- (void)shareViewControllerDismissed:(SVShareViewController*)controller; 
 @end

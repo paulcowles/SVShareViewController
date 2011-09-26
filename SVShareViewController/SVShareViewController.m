@@ -7,6 +7,7 @@
 
 #import <QuartzCore/QuartzCore.h>
 
+
 #import "SVShareViewController.h"
 
 #define kSWNavTintFacebook [UIColor colorWithRed:0.108 green:0.323 blue:0.552 alpha:1.000]
@@ -76,10 +77,6 @@
 #pragma mark -
 #pragma mark UI Setters
 
-- (void)setUserString:(NSString *)aString {
-	userLabel.text = aString;
-}
-
 - (void)setDefaultMessage:(NSString *)aString {
 	rTextView.text = aString;
 }
@@ -88,7 +85,7 @@
 #pragma mark Actions
 
 - (void)dismiss {
-	[self.parentViewController dismissModalViewControllerAnimated:YES];
+    [delegate shareViewControllerDismissed:self];
 }
 
 
