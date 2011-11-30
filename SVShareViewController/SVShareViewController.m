@@ -115,8 +115,8 @@
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
 	
-	if(buttonIndex == 1)
-		[delegate shareViewController:self logoutFromService:self.shareType];
+//	if(buttonIndex == 1)
+//		[delegate shareViewController:self logoutFromService:self.shareType];
 }
 
 
